@@ -2,6 +2,12 @@
 
 AWX python API client.
 
+## Install
+
+```
+pip install awxclient
+```
+
 ## Usage
 
 ### Client object
