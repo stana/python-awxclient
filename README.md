@@ -16,7 +16,7 @@ Could also provide auth token -
 awx = AWXClient('myawx.example.com', token=...)
 ```
 
-By default connections to AWX made via https. If not https prefix protocol to awx host name - 
+By default connections to AWX made via https. If not https - prefix protocol to awx host name - 
 ```
 awx = AWXClient('http://myawx.example.com' ...)
 ```
@@ -46,7 +46,7 @@ awx.job_templates.get_all()
 awx.job_templates.get_by_id(7)
 ```
 
-#### Fetching object by name
+#### Getting object by name
 ```
 awx.job_templates.get_by_name('Demo Job Template')
 ```
